@@ -7,8 +7,8 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: scripts/webserver-stop.sh
-    - location: scripts/delete-old-war.sh
+    - location: Scripts/webserver-stop.sh
+    - location: Scripts/delete-old-war.sh
   AfterInstall:
-    - location: scripts/rename-war.sh
-    - location: scripts/webserver-start.sh
+    - location: Scripts/rename-war.sh
+    - location: Scripts/webserver-start.sh
