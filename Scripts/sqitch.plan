@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=dellstore
+%uri=https://github.com/jrmich44/dellstore.git
+
+schema 2016-12-30T03:35:52Z SpiderTutorial <SpiderTutorial@outlook.com> # Add schema for tutorial objects

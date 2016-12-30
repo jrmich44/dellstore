@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+/Users/Just/workspace/dellstore/Code/.metadata/.plugins/org.eclipse.jdt.core
+3456960646.index
