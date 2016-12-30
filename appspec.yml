@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+
+files:
+  - source: Code/dellstore/target/dellstore-0.0.1-SNAPSHOT.war
+    destination: /usr/share/tomcat8/webapps
+
+hooks:
+  BeforeInstall:
+    - location: scripts/webserver-stop.sh
+    - location: scripts/delete-old-war.sh
+  AfterInstall:
+    - location: scripts/rename-war.sh
+    - location: scripts/webserver-start.sh
