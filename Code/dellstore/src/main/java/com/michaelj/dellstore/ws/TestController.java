@@ -12,7 +12,7 @@ public class TestController {
 	
 	@RequestMapping(value="/test", method=RequestMethod.GET, produces=MediaType.TEXT_PLAIN_VALUE)
 	public ResponseEntity<String> getTest(){
-		return new ResponseEntity<String>("Test", HttpStatus.OK);
+		return new ResponseEntity<String>("Test2", HttpStatus.OK);
 		
 	}
 
